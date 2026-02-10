@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-color: #fdfafa;
+    --card-bg: #EBE6DE;
+    --text-primary: #1a1a1a;
+    --text-secondary: #555555;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    color: var(--text-primary);
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    z-index: 10;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Policy Panel Overflow Fixes */
+.policy-panel-container {
+    height: 420px;
+    max-height: 420px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.policy-panel-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.policy-panel-container::-webkit-scrollbar-thumb {
+    background: #c8c1b7;
+    border-radius: 4px;
+}
+
+.station-policy-block {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e7eb;
+    /* Gray-200 */
+}
+
+.policy-panel-wrapper {
+    height: 100%;
+    max-height: 420px;
+}
+
+/* Forecast Chart Fixes */
+.forecast-chart-container {
+    width: 100%;
+    height: 320px;
+    min-height: 320px;
+    max-height: 320px;
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 16px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Future Forecast Layout Fixes */
+.map-policy-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+    align-items: start;
+}
+
+.forecast-chart-row {
+    width: 100%;
+    margin-top: 24px;
+    grid-column: 1 / -1;
+}
+
+.forecast-page {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

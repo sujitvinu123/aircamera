@@ -1,0 +1,15 @@
+__pycache__/
+*.pkl
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.idea/
+.settings/
+.vscode/
+venv/
+env/
+models/
+output/
+sample_images/
+debug_ngrok.py

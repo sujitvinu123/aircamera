@@ -145,7 +145,7 @@ a {
 }
 
 .nav-desc {
-  font-size: 9px;
+  font-size: 11px;
   color: var(--text-muted);
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -165,7 +165,7 @@ a {
   padding: 8px 16px;
   border-radius: var(--radius-md);
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -205,7 +205,7 @@ a {
 
 .nav-clock {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--accent-emerald);
   font-weight: 600;
 }
@@ -217,7 +217,7 @@ a {
   padding: 4px 10px;
   border-radius: 20px;
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.8px;
   border: 1px solid;
 }
@@ -267,7 +267,7 @@ a {
 
 .page-hero-label {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   color: var(--text-muted);
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -275,7 +275,7 @@ a {
 }
 
 .page-hero-title {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 800;
   color: var(--text-primary);
   margin-bottom: 8px;
@@ -290,7 +290,7 @@ a {
 }
 
 .page-hero-desc {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.7;
   max-width: 700px;
@@ -322,7 +322,7 @@ a {
 
 .section-title {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-muted);
   letter-spacing: 2.5px;
@@ -330,7 +330,7 @@ a {
 }
 
 .section-desc {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 16px;
@@ -371,7 +371,7 @@ a {
 
 .card-label {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   color: var(--text-muted);
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -380,13 +380,13 @@ a {
 
 .card-value {
   font-family: var(--font-mono);
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 800;
   line-height: 1;
 }
 
 .card-sub {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-secondary);
   margin-top: 6px;
 }
@@ -500,7 +500,7 @@ a {
 
 .panel-title {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--text-muted);
   letter-spacing: 2px;
@@ -604,14 +604,14 @@ a {
 }
 
 .source-name {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--text-primary);
 }
 
 .source-type {
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -627,7 +627,7 @@ a {
 
 .env-metric-label {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   color: var(--text-muted);
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -655,7 +655,7 @@ a {
   padding: 7px 10px;
   border-radius: var(--radius-sm);
   margin-bottom: 4px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--text-secondary);
   border: 1px solid var(--border-subtle);
   transition: border-color 0.3s;
@@ -675,7 +675,7 @@ a {
   cursor: pointer;
   transition: all 0.3s;
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1px;
   text-transform: uppercase;
   border: 1px solid var(--border-subtle);
@@ -740,7 +740,7 @@ a {
 
 .cf-bar-label {
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 1px;
   margin-bottom: 6px;
 }
@@ -776,7 +776,7 @@ a {
 
 .temporal-label {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   color: var(--text-muted);
   letter-spacing: 2px;
 }
@@ -805,7 +805,7 @@ a {
 
 .temporal-value {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   min-width: 65px;
   text-align: center;
@@ -813,7 +813,7 @@ a {
 
 .temporal-zone {
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 1px;
   padding: 3px 8px;
@@ -850,14 +850,14 @@ a {
 }
 
 .upload-title {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 4px;
 }
 
 .upload-hint {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
 }
 
@@ -874,7 +874,7 @@ a {
   padding: 14px;
   border-radius: var(--radius-lg);
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -943,7 +943,7 @@ a {
   background: rgba(6, 10, 17, 0.85);
   padding: 5px 10px;
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   color: var(--text-secondary);
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -962,7 +962,7 @@ a {
 
 .psi-label {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   color: var(--text-muted);
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -971,14 +971,14 @@ a {
 
 .psi-value {
   font-family: var(--font-mono);
-  font-size: 42px;
+  font-size: 44px;
   font-weight: 800;
   line-height: 1;
 }
 
 .psi-badge {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 1px;
   padding: 5px 14px;
@@ -1001,7 +1001,7 @@ a {
 
 .feature-cell-label {
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1010,7 +1010,7 @@ a {
 
 .feature-cell-val {
   font-family: var(--font-mono);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--text-primary);
 }
@@ -1024,7 +1024,7 @@ a {
 }
 
 .explainer-title {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 8px;
@@ -1034,7 +1034,7 @@ a {
 }
 
 .explainer-text {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.8;
 }
@@ -1067,7 +1067,7 @@ a {
   align-items: center;
   justify-content: center;
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--accent-emerald);
   flex-shrink: 0;
@@ -1078,14 +1078,14 @@ a {
 }
 
 .method-step-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 2px;
 }
 
 .method-step-desc {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.6;
 }
@@ -1103,7 +1103,7 @@ a {
   padding: 10px 6px;
   text-align: center;
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 0.8);
   transition: transform 0.2s;
@@ -1117,7 +1117,7 @@ a {
 
 .psi-scale-band span {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   margin-bottom: 2px;
 }
@@ -1159,14 +1159,14 @@ a {
 
 .forecast-bar-val {
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 10px;
   color: var(--text-secondary);
   text-align: center;
 }
 
 .forecast-hour {
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 10px;
   color: var(--text-muted);
 }
 
@@ -1174,7 +1174,7 @@ a {
 .reasoning-line {
   padding: 3px 0;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.6;
   color: var(--text-secondary);
   border-bottom: 1px solid var(--border-subtle);
@@ -1213,7 +1213,7 @@ a {
 }
 
 .loading-sub {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--text-muted);
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1234,7 +1234,7 @@ a {
   align-items: center;
   gap: 16px;
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 0.8px;
 }
@@ -1253,7 +1253,7 @@ a {
   padding: 10px 20px;
   border-radius: var(--radius-md);
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 1.2px;
   text-transform: uppercase;

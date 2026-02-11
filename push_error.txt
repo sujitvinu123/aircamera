@@ -1,0 +1,85 @@
+﻿git : remote: error: GH013: 
+Repository rule violations 
+found for refs/heads/main.   
+     
+At line:1 char:1
++ git push origin main 2>&1 
+| Out-File -FilePath 
+"E:\AIRWANA\push_error ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (remote:  
+   error: ...s/main.         
+   :String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+remote: 
+remote: - GITHUB PUSH 
+PROTECTION        
+remote:   ΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓ
+ÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇö
+ΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇ
+öΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓ
+ÇöΓÇöΓÇöΓÇöΓÇöΓÇö        
+remote:     Resolve the 
+following violations before 
+pushing again        
+remote: 
+remote:     - Push cannot 
+contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how 
+to resolve a blocked push    
+    
+remote:      https://docs.git
+hub.com/code-security/secret-
+scanning/working-with-secret-
+scanning-and-push-protection/
+working-with-push-protection-
+from-the-command-line#resolvi
+ng-a-blocked-push        
+remote:             
+remote:             
+remote:       ΓÇöΓÇö Twilio 
+Account String Identifier ΓÇö
+ΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇ
+öΓÇöΓÇöΓÇöΓÇöΓÇöΓÇöΓÇö       
+ 
+remote:        locations:    
+    
+remote:          - commit: ae
+b687b50d8670f084c96cc42557793
+2f1acd5d1        
+remote:            path: airs
+sp/src/pages/AlertEnginePage.
+jsx:258        
+remote:          - commit: ae
+b687b50d8670f084c96cc42557793
+2f1acd5d1        
+remote:            path: airs
+sp/src/pages/AlertEnginePage.
+jsx:298        
+remote:             
+remote:        (?) To push, 
+remove secret from commit(s) 
+or follow this URL to allow 
+the secret.        
+remote:        https://github
+.com/sujitvinu123/aircamera/s
+ecurity/secret-scanning/unblo
+ck-secret/39VfX8Ni0Eb3Zc0F0pr
+KgnIgi4R        
+remote:             
+remote: 
+remote: 
+To https://github.com/sujitvi
+nu123/aircamera.git
+ ! [remote rejected] main -> 
+main (push declined due to 
+repository rule violations)
+error: failed to push some 
+refs to 'https://github.com/s
+ujitvinu123/aircamera.git'
